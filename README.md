@@ -18,7 +18,7 @@ EmotiScan brings the magic of machine learning to recognize emotions and express
 ## How It Works
 
 1. **Upload Your Image**: Simply upload a photo of a face.
-2. **Magic Happens**: Our pre-trained model analyzes the facial features.
+2. **Magic Happens**: The pre-trained model analyzes the facial features.
 3. **Get Results**: You'll receive a prediction of the emotion and FACS codes associated with the facial expressions in the image.
 
 ## Disclaimer
