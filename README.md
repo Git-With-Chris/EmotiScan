@@ -71,15 +71,17 @@ To set up the EmotiScan App on your local machine, follow these steps:
 |-- notebooks
 |   |-- EDA.ipynb                 # Notebook used for Exploratory Data Analysis (EDA).
 |   `-- Modelling.ipynb           # Notebook containing the model development process, including model training, evaluation, and optimization.
-`-- scripts
-    |-- dataloader.py             # Custom Data Loader: Python script for loading and preprocessing data before model training.
-    |-- plotter.py                # Utility script for generating plots and visualizations used in data exploration and model evaluation.
-    `-- predictions.py            # Script to make predictions using the trained model on new data.
+|-- scripts
+|   |-- dataloader.py             # Custom Data Loader: Python script for loading and preprocessing data before model training.
+|   |-- plotter.py                # Utility script for generating plots and visualizations used in data exploration and model evaluation.
+|   `-- predictions.py            # Script to make predictions using the trained model on new data.
+|-- LICENSE.txt
+`-- requirements.txt
 
 5 directories, 16 files
 ```
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE.txt) file for details.
 
