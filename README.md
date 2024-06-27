@@ -1,6 +1,6 @@
 # EmotiScan 🫥
 
-Welcome to EmotiScan, a fun web application that predicts emotions and Facial Action Coding System (FACS) codes from images using advanced deep learning techniques.
+Welcome to EmotiScan, a fun web application that uses a Deep Learning model to make guesses on the emotions and expressions in a face.
 
 ## Introduction 
 
@@ -23,7 +23,7 @@ EmotiScan brings the magic of machine learning to recognize emotions and express
 
 ## Disclaimer
 
-EmotiScan is designed for entertainment and educational purposes only. The predictions provided by the application are not intended for use in critical decision-making processes. EmotiScan's results should not be considered definitive or used for any professional or diagnostic purposes.
+EmotiScan is strictly designed for entertainment and educational purposes only. The predictions provided by the application are not intended for use in critical decision-making processes. EmotiScan's results should not be considered definitive or used for any professional or diagnostic purposes.
 
 ## Preview
 
