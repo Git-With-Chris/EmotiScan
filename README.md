@@ -6,6 +6,8 @@ Welcome to EmotiScan, a fun web application that predicts emotions and Facial Ac
 
 EmotiScan brings the magic of machine learning to recognize emotions and expressions in pictures. With EmotiScan, you can upload an image and receive predictions about the emotions and facial action units displayed in the photo. It's an enjoyable way to explore the subtleties of facial expressions and understand the underlying emotions.
 
+![](./Images/EDAPicture.png)
+
 ## Features
 
 - **Emotion Prediction**: Detects primary emotions such as happiness, surprise, and negative sentiments.
@@ -19,17 +21,15 @@ EmotiScan brings the magic of machine learning to recognize emotions and express
 2. **Magic Happens**: Our pre-trained model analyzes the facial features.
 3. **Get Results**: You'll receive a prediction of the emotion and FACS codes associated with the facial expressions in the image.
 
-![](./Images/EDAPicture.png)
+## Disclaimer
+
+EmotiScan is designed for entertainment and educational purposes only. The predictions provided by the application are not intended for use in critical decision-making processes. EmotiScan's results should not be considered definitive or used for any professional or diagnostic purposes.
 
 ## Preview
 
 The following video illustrates the real-time working and aesthetics of the EmotiScan App
 
-https://github.com/Git-With-Chris/EmotiScan/assets/132337461/0397b1de-e72e-41cf-bd43-127cab9362c9
-
-## Disclaimer
-
-EmotiScan is designed for entertainment and educational purposes only. The predictions provided by the application are not intended for use in critical decision-making processes. EmotiScan's results should not be considered definitive or used for any professional or diagnostic purposes.
+https://github.com/Git-With-Chris/EmotiScan/assets/132337461/7def28a3-17fb-4ed2-b457-5167da09d716
 
 ## Installation
 
@@ -77,3 +77,23 @@ To set up EmotiScan on your local machine, follow these steps:
 
 5 directories, 16 files
 ```
+
+- **README.md**: This file serves as the main documentation for the EmotiScan project, providing an overview, installation instructions, and usage details.
+
+- **app.py**: The main application script containing the Streamlit app setup. It handles user interface, image upload, prediction logic, and rendering of results.
+
+- **emotiscan_model.h5**: The trained deep learning model file used by EmotiScan to predict emotions and Facial Action Coding System (FACS) codes from uploaded images (Currently not public)
+
+- **notebooks**:
+  - **EDA.ipynb**: Jupyter notebook used for Exploratory Data Analysis (EDA), exploring the dataset characteristics and preparing data for model training.
+  - **Modelling.ipynb**: Jupyter notebook containing the model development process, including model training, evaluation, and optimization.
+
+- **scripts**:
+  - **dataloader.py**: Python script for loading and preprocessing data before model training.
+  - **plotter.py**: Utility script for generating various plots and visualizations used in data exploration and model evaluation.
+  - **predictions.py**: Script to make predictions using the trained model on new data.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
