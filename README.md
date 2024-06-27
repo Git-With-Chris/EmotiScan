@@ -38,6 +38,9 @@ To set up the EmotiScan App on your local machine, follow these steps:
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/Git-With-Chris/EmotiScan.git
+    ```
+2. **Change directory**
+   ```bash
     cd EmotiScan
     ```
 
@@ -78,7 +81,7 @@ To set up the EmotiScan App on your local machine, follow these steps:
 |-- LICENSE.txt
 `-- requirements.txt
 
-5 directories, 16 files
+5 directories, 18 files
 ```
 
 ## License
