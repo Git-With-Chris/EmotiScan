@@ -33,7 +33,7 @@ https://github.com/Git-With-Chris/EmotiScan/assets/132337461/7def28a3-17fb-4ed2-
 
 ## Installation
 
-To set up EmotiScan on your local machine, follow these steps:
+To set up the EmotiScan App on your local machine, follow these steps:
 
 1. **Clone the repository**:
     ```bash
@@ -52,10 +52,11 @@ To set up EmotiScan on your local machine, follow these steps:
     ```
 
 ## Project Structure
+
 ```text
 .
-|-- README.md
-|-- app.py
+|-- README.md                     # Main documentation for the EmotiScan project.
+|-- app.py                        # Main application script containing the Streamlit app setup. 
 |-- images
 |   |-- AboutPage.png
 |   |-- Data.png
@@ -66,32 +67,17 @@ To set up EmotiScan on your local machine, follow these steps:
 |   |-- HomePage.png
 |   `-- LearningCurves.png
 |-- models
-|   `-- emotiscan_model.h5
+|   `-- emotiscan_model.h5        # Trained deep learning model file used by EmotiScan to predict emotions and FACS codes (!!Currently not public!!)
 |-- notebooks
-|   |-- EDA.ipynb
-|   `-- Modelling.ipynb
+|   |-- EDA.ipynb                 # Notebook used for Exploratory Data Analysis (EDA).
+|   `-- Modelling.ipynb           # Notebook containing the model development process, including model training, evaluation, and optimization.
 `-- scripts
-    |-- dataloader.py
-    |-- plotter.py
-    `-- predictions.py
+    |-- dataloader.py             # Custom Data Loader: Python script for loading and preprocessing data before model training.
+    |-- plotter.py                # Utility script for generating plots and visualizations used in data exploration and model evaluation.
+    `-- predictions.py            # Script to make predictions using the trained model on new data.
 
 5 directories, 16 files
 ```
-
-- **README.md**: This file serves as the main documentation for the EmotiScan project, providing an overview, installation instructions, and usage details.
-
-- **app.py**: The main application script containing the Streamlit app setup. It handles user interface, image upload, prediction logic, and rendering of results.
-
-- **emotiscan_model.h5**: The trained deep learning model file used by EmotiScan to predict emotions and Facial Action Coding System (FACS) codes from uploaded images (Currently not public)
-
-- **notebooks**:
-  - **EDA.ipynb**: Jupyter notebook used for Exploratory Data Analysis (EDA), exploring the dataset characteristics and preparing data for model training.
-  - **Modelling.ipynb**: Jupyter notebook containing the model development process, including model training, evaluation, and optimization.
-
-- **scripts**:
-  - **dataloader.py**: Python script for loading and preprocessing data before model training.
-  - **plotter.py**: Utility script for generating various plots and visualizations used in data exploration and model evaluation.
-  - **predictions.py**: Script to make predictions using the trained model on new data.
 
 ## License
 
