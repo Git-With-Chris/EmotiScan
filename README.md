@@ -1,6 +1,6 @@
 # EmotiScan 🫥
 
-Welcome to EmotiScan, a fun web application that predicts emotions and Facial Action Coding System (FACS) codes from images using advanced deep learning techniques.
+Welcome to EmotiScan, a fun web application that uses a Deep Learning model to make guesses on the emotions and expressions in a face.
 
 ## Introduction 
 
@@ -18,12 +18,12 @@ EmotiScan brings the magic of machine learning to recognize emotions and express
 ## How It Works
 
 1. **Upload Your Image**: Simply upload a photo of a face.
-2. **Magic Happens**: Our pre-trained model analyzes the facial features.
+2. **Magic Happens**: The pre-trained model analyzes the facial features.
 3. **Get Results**: You'll receive a prediction of the emotion and FACS codes associated with the facial expressions in the image.
 
 ## Disclaimer
 
-EmotiScan is designed for entertainment and educational purposes only. The predictions provided by the application are not intended for use in critical decision-making processes. EmotiScan's results should not be considered definitive or used for any professional or diagnostic purposes.
+EmotiScan is strictly designed for entertainment and educational purposes only. The predictions provided by the application are not intended for use in critical decision-making processes. EmotiScan's results should not be considered definitive or used for any professional or diagnostic purposes.
 
 ## Preview
 
@@ -38,6 +38,9 @@ To set up the EmotiScan App on your local machine, follow these steps:
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/Git-With-Chris/EmotiScan.git
+    ```
+2. **Change directory**
+   ```bash
     cd EmotiScan
     ```
 
@@ -78,7 +81,7 @@ To set up the EmotiScan App on your local machine, follow these steps:
 |-- LICENSE.txt
 `-- requirements.txt
 
-5 directories, 16 files
+5 directories, 18 files
 ```
 
 ## License
